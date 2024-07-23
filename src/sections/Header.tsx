@@ -5,7 +5,7 @@ import MenuIcon from "@/assets/menu.svg";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 z-20 backdrop-blur-sm">
       <div className="flex justify-center gap-3 bg-black py-3 text-sm text-white">
         <p className="hidden text-white/60 md:block">
           Streamline your workflow and boost your productivity
@@ -26,9 +26,7 @@ export const Header = () => {
             <a href="#">Customers</a>
             <a href="#">Updates</a>
             <a href="#">Help</a>
-            <button className="rounded-lg bg-black px-4 py-2 font-medium tracking-tight text-white">
-              Get for free
-            </button>
+            <button className="btn btn-primary">Get for free</button>
           </nav>
         </div>
       </div>
