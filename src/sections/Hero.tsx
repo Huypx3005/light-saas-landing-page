@@ -9,9 +9,7 @@ export const Hero = () => {
     <section className="overflow-x-clip bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE)] pb-20 pt-8 md:pb-10 md:pt-5">
       <div className="container items-center md:flex">
         <div className="md:w-[478px]">
-          <div className="inline-flex rounded-lg border border-[#222]/10 px-3 py-1 text-sm tracking-tight">
-            Version 2.0 is here
-          </div>
+          <div className="tag">Version 2.0 is here</div>
           <h1 className="mt-6 bg-gradient-to-b from-black to-[#001E80] bg-clip-text text-5xl font-bold tracking-tighter text-transparent md:text-7xl">
             Pathway to productivity
           </h1>
@@ -31,20 +29,20 @@ export const Hero = () => {
         <div className="relative mt-20 md:mt-0 md:h-[648px] md:flex-1">
           <Image
             src={cogImage}
-            alt="Cog"
+            alt=""
             className="md:absolute md:-left-6 md:h-full md:w-auto md:max-w-none lg:left-0"
           />
           <Image
             src={cylinderImage}
             width={220}
             height={220}
-            alt="cylinder"
+            alt=""
             className="absolute -left-32 -top-8 hidden md:block"
           />
           <Image
             src={noodleImage}
             width={220}
-            alt="noodle"
+            alt=""
             className="absolute left-[448px] top-[524px] hidden rotate-[30deg] md:block"
           />
         </div>
